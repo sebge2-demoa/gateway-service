@@ -1,2 +1,3 @@
-# gateway-service
+# Gateway-Service
+
 Gateway for desktop application
