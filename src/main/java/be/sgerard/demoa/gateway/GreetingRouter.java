@@ -15,7 +15,7 @@ public class GreetingRouter {
     public RouterFunction<ServerResponse> route(GreetingHandler greetingHandler) {
         return RouterFunctions
                 .route(
-                        RequestPredicates.GET("/")
+                        RequestPredicates.GET("/api")
                         .and(RequestPredicates.accept(MediaType.TEXT_PLAIN)), greetingHandler::hello
                 );
     }
