@@ -1,2 +1,9 @@
 server:
   port: 8099
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/web-gateway"
+    username: ""
+    password: ""
+
